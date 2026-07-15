@@ -37,7 +37,7 @@ public class EnderPearlTimerClient implements ClientModInitializer {
                 "key.enderpearltimer.toggle",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_UNKNOWN,
-                "category.enderpearltimer"
+                new KeyBinding.Category("category.enderpearltimer")
         ));
 
         // Erkennt jede Enderperle, die neu in die Welt geladen wird,
